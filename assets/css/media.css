@@ -151,6 +151,12 @@
   justify-items: center;
 }
 
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .newsletter input {
   width: 280px;
   font-size: var(--l-message);
