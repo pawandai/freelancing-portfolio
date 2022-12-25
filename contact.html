@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/contact.css" />
+    <link rel="stylesheet" href="./assets/css/default.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/navigation.css" />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navigation-bar flex flex-center fixed">
+      <div class="navigation flex flex-space-evenly spread relative">
+        <div class="logo">
+          <img class="logo-img" src="./assets/images/catpaw.png" />
+        </div>
+        <div class="nav-links">
+          <ul class="flex flex-space-around">
+            <li><a class="nav-link" href="index.html">Home</a></li>
+            <li><a class="nav-link" href="./projects.html">Projects</a></li>
+            <li><a class="nav-link" href="./about.html">About</a></li>
+            <li><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="hamburger-wrap absolute">
+          <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CONTACT FORM -->
+
+    <div class="container">
+      <form class="form" id="form">
+        <h2 class="text-center text-xl">Contact Me</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error Message</small>
+        </div>
+        <div class="form-element">
+          <label for="message">Message</label>
+          <textarea
+            type="text"
+            id="message"
+            placeholder="Enter your message"
+          ></textarea>
+          <small>Error Message</small>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+
+    <footer class="relative">
+      <div class="footer">
+        <div class="navigation-footer">
+          <ul>
+            <li>
+              <a
+                href="index.html"
+                class="message btn btn-primary btn-transparent"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="projects.html"
+                class="message btn btn-primary btn-transparent"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="message btn btn-primary btn-transparent"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="message btn btn-primary btn-transparent"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <h2 class="heading">Subscribe to US</h2>
+          <input type="text" placeholder="Enter your email" />
+          <button class="btn btn-primary btn-transparent">Subscribe</button>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

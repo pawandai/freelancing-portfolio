@@ -1,0 +1,23 @@
+
+
+/* PROJECTS */
+
+.projects-wrap {
+  width: 50%;
+  height: 100vh;
+  margin-left: 25%;
+  transition: all ease-in-out .5s;
+}
+
+.sliding-form {
+  width: 50vw;
+  max-width: 960px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: transform ease-in-out .1s;
+}
+
+.sliding-form:hover {
+  transform: scale(0.99);
+}
