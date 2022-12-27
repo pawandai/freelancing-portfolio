@@ -107,7 +107,7 @@
 /* SKILLS PROGRESS MEDIA */
 
 @media(max-width: 505px) {
-  .progress-bar {
+  .progress {
     width: 80vw;
   }
 }
@@ -157,8 +157,8 @@
 
 @media(max-width: 365px) {
   .skills-wrap {
-    position:relative;
-    margin-top: -200px;
+    justify-content: center;
+    transform: translateY(950px);
   }
   footer {
     position: relative;
@@ -171,7 +171,7 @@
 
   .newsletter input {
     width: 200px;
-
+    font-size: var(--l-message);
   }
 
   .newsletter input:focus {
@@ -179,8 +179,16 @@
   }
 
   footer {
-    position: absolute;
-    top: 900px;
+    position: relative;
+    transform: translateY(950px);
+  }
+
+  
+}
+
+@media(max-width: 332px) {
+  .skills-wrap {
+    transform: translateY(50px);
   }
 }
 

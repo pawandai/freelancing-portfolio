@@ -279,7 +279,6 @@ li {
   width: 60px;
   height: 80%;
   border-radius: 5em;
-  z-index: 10;
   overflow: hidden;
   border: 2px solid blue;
 }
@@ -292,7 +291,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.sixty .b2::before {
@@ -301,7 +299,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.sixty .b3::before {
@@ -310,7 +307,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 
@@ -323,7 +319,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty-five .b2::before {
@@ -332,7 +327,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty-five .b3::before {
@@ -341,7 +335,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty-five .b4::before {
@@ -350,7 +343,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty-five .b5::before {
@@ -359,7 +351,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 75%;
-  z-index: -10;
   overflow: hidden;
 }
 
@@ -371,7 +362,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty .b2::before {
@@ -380,7 +370,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty .b3::before {
@@ -389,7 +378,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty .b4::before {
@@ -398,7 +386,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.ninty .b5::before {
@@ -407,7 +394,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 50%;
-  z-index: -10;
   overflow: hidden;
 }
 
@@ -419,7 +405,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.eighty .b2::before {
@@ -428,7 +413,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.eighty .b3::before {
@@ -437,7 +421,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.eighty .b4::before {
@@ -446,7 +429,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 
@@ -458,7 +440,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy-five .b2::before {
@@ -467,7 +448,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy-five .b3::before {
@@ -476,7 +456,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy-five .b4::before {
@@ -485,7 +464,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 75%;
-  z-index: -10;
   overflow: hidden;
 }
 
@@ -498,7 +476,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy .b2::before {
@@ -507,7 +484,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy .b3::before {
@@ -516,7 +492,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 100%;
-  z-index: -10;
   overflow: hidden;
 }
 .progress-bar.seventy .b4::before {
@@ -525,7 +500,6 @@ li {
   background-color: blue;
   height: 100%;
   width: 50%;
-  z-index: -10;
   overflow: hidden;
 }
 
