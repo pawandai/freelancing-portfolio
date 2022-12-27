@@ -1,8 +1,8 @@
 :root {
-  --xxl-large-heading: 4rem;
+  --xxl-large-heading: 3.8rem;
   --xxl-small-heading: 3rem;
   --xxl-message: 2rem;
-  --xl-large-heading: 3rem;
+  --xl-large-heading: 2.9rem;
   --xl-small-heading: 2.2rem;
   --xl-message: 1.5rem;
   --l-large-heading: 2rem;
@@ -10,7 +10,7 @@
   --l-message: 1rem;
   --s-large-heading: 1.6rem;
   --s-small-heading: 0.95rem;
-  --s-message: 0.8rem;
+  --s-message: 0.9rem;
   --xs-large-heading: 1.5rem;
   --xs-small-heading: 0.9rem;
   --xs-message: 0.7rem;
@@ -38,23 +38,15 @@
   }
 }
 
-  .heading {
-    font-size: var(--xxl-large-heading);
-  }
-  .heading-message {
-    font-size: var(--xxl-small-heading);
-  }
-  .message {
-    font-size: var(--xxl-message);
-  }
+ 
 
 
   @media(max-width: 1920px) {
     .heading {
-      font-size: var(--l-large-heading);
+      font-size: var(--xxl-large-heading);
     }
     .heading-message {
-      font-size: var(--l-small-heading);
+      font-size: var(--xl-small-heading);
     }
     .message {
       font-size: var(--l-message);
@@ -63,13 +55,13 @@
 
   @media(max-width: 1700px) {
     .heading {
-      font-size: var(--l-large-heading);
+      font-size: var(--xl-large-heading);
     }
     .heading-message {
       font-size: var(--l-small-heading);
     }
     .message {
-      font-size: var(--l-message);
+      font-size: var(--s-message);
     }
     .about-icons {
       font-size: 32px;
@@ -82,8 +74,8 @@
   }
 
   @media(max-width: 1130px) {
-    /* .heading {
-      font-size: var(--l-large-heading);
+    .heading {
+      font-size: var(--xl-large-heading);
     }
     .heading-message {
       font-size: var(--l-small-heading);
@@ -91,7 +83,6 @@
     .message {
       font-size: var(--s-message);
     }
-  } */
 
     .skills {
       display: grid;
