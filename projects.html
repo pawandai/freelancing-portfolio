@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Projects</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="./assets/css/media.css" />
-    <link rel="stylesheet" href="./assets/css/default.css" />
-    <link rel="stylesheet" href="./assets/css/footer.css" />
-    <link rel="stylesheet" href="./assets/css/navigation.css" />
-    <link rel="stylesheet" href="./assets/css/projects.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Projects</title>
-  </head>
-  <body>
-    <!-- NAVIGATION BAR -->
 
+    <link rel="stylesheet" href="assets/css/projects.css" />
+    <link rel="stylesheet" href="assets/css/default.css" />
+    <link rel="stylesheet" href="assets/css/navigation.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
+
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .swiper {
+        width: 50vw;
+      }
+
+      .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
     <nav class="navigation-bar flex flex-center fixed">
       <div class="navigation flex flex-space-evenly spread relative">
         <div class="logo">
@@ -44,28 +80,42 @@
         </div>
       </div>
     </nav>
-    <!-- PROJECTS SECTION -->
-    <div class="projects-wrap flex flex-center">
-      <div class="project-slides flex flex-space-around">
-        <div class="previous-button" id="previous-button">
-          <i class="fa-solid fa-circle-arrow-left"></i>
+    <!-- Swiper -->
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="https://pawandai.github.io/slidingform/" target="_blank"
+            ><img src="assets/images/slidingform.png" alt="sliding form"
+          /></a>
+          <h3 class="heading">Sliding Form</h3>
+          <p class="message">
+            This project idea was taken from Florin Pop. I've tweaked it and
+            made it responsive.
+          </p>
         </div>
-        <div class="slides flex flex-center flex-column">
-          <a href="https://pawandai.github.io/slidingform/" target="_blank">
-            <img
-              src="./assets/images/slidingform.png"
-              alt="Sliding Form Projects"
-              class="sliding-form"
-            />
-          </a>
-          <p class="heading">Sliding Signin/Signup form</p>
-        </div>
-        <div class="next-button" id="next-button">
-          <i class="fa-solid fa-circle-arrow-right"></i>
+        <div class="swiper-slide">
+          <a href="https://pawandai.github.io/formvalidator/" target="_blank"
+            ><img src="assets/images/form_validation.png" alt="sliding form"
+          /></a>
+          <h3 class="heading">JS Form Validator</h3>
+          <p class="message">
+            This project idea was taken from Traversy Media. It will simply show
+            some errors that you've done wrong.
+          </p>
         </div>
       </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: false,
+      });
+    </script>
   </body>
 </html>

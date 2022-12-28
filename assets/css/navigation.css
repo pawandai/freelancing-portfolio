@@ -17,6 +17,7 @@ body {
 }
 
 .navigation-bar {
+  top: 0;
   height: 80px;
   background-color: var(--primary-color);
   width: 100vw;
