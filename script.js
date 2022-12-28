@@ -14,7 +14,6 @@ const form = document.getElementById('form');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const message = document.getElementById('message');
-
 //Functions
 function showError(input, message) {
   const formElement = input.parentElement;
@@ -47,8 +46,6 @@ const about_height = new ResizeObserver(function(height_arr) {
 	// current width & height
 	let height = rect.height;
 	let width = rect.width;
-  console.log(height);
-  console.log('width: ', width);
   skills_wrap.style.top = `${height-800}px`;
 
   if(width < 292.5) {

@@ -21,3 +21,33 @@
 .sliding-form:hover {
   transform: scale(0.99);
 }
+
+.project-slides {
+  gap: 100px;
+}
+
+.slides {
+  gap: 50px;
+}
+
+.previous-button i {
+  font-size: 48px;
+}
+
+.previous-button, 
+.next-button {
+  cursor: pointer;
+  transition: transform ease-in-out .2s;
+}
+
+.previous-button:hover {
+  transform: scale(1.1);
+}
+
+.next-button:hover {
+  transform: scale(1.1);
+}
+
+.next-button i {
+  font-size: 48px;
+}
