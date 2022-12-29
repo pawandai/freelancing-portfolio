@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
     />
-    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
@@ -17,51 +16,15 @@
     <link rel="stylesheet" href="assets/css/default.css" />
     <link rel="stylesheet" href="assets/css/navigation.css" />
     <link rel="stylesheet" href="assets/css/media.css" />
-
-    <!-- Demo styles -->
-    <style>
-      html,
-      body {
-        position: relative;
-        height: 100%;
-      }
-
-      body {
-        background: #eee;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      .swiper {
-        width: 50vw;
-      }
-
-      .swiper-slide {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 18px;
-        font-size: 22px;
-        font-weight: bold;
-        color: #333;
-      }
-    </style>
   </head>
 
   <body>
     <nav class="navigation-bar flex flex-center fixed">
       <div class="navigation flex flex-space-evenly spread relative">
         <div class="logo">
-          <img class="logo-img" src="./assets/images/catpaw.png" />
+          <a href="index.html"
+            ><img class="logo-img" src="./assets/images/catpaw.png"
+          /></a>
         </div>
         <div class="nav-links">
           <ul class="flex flex-space-around">
@@ -80,42 +43,45 @@
         </div>
       </div>
     </nav>
-    <!-- Swiper -->
 
+    <!-- SWIPER -->
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a href="https://pawandai.github.io/slidingform/" target="_blank"
-            ><img src="assets/images/slidingform.png" alt="sliding form"
-          /></a>
-          <h3 class="heading">Sliding Form</h3>
-          <p class="message">
-            This project idea was taken from Florin Pop. I've tweaked it and
-            made it responsive.
-          </p>
-        </div>
-        <div class="swiper-slide">
-          <a href="https://pawandai.github.io/formvalidator/" target="_blank"
-            ><img src="assets/images/form_validation.png" alt="sliding form"
-          /></a>
-          <h3 class="heading">JS Form Validator</h3>
-          <p class="message">
-            This project idea was taken from Traversy Media. It will simply show
-            some errors that you've done wrong.
-          </p>
-        </div>
+        <a
+          href="https://pawandai.github.io/formvalidator/"
+          target="_blank"
+          class="swiper-slide"
+        >
+          <div class="swiper-slide flex flex-column flex-space-around">
+            <img src="./assets/images/project-1.png" />
+          </div>
+        </a>
+        <a
+          href="https://pawandai.github.io/slidingform/"
+          target="_blank"
+          class="swiper-slide"
+        >
+          <div class="swiper-slide">
+            <img src="./assets/images/project-2.png" /></div
+        ></a>
       </div>
     </div>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
         effect: "cards",
-        grabCursor: false,
+        loop: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
       });
     </script>
+    <script src="./script.js"></script>
   </body>
 </html>

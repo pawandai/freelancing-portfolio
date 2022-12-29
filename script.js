@@ -86,9 +86,5 @@ form.addEventListener('submit', function() {
 });
 
 
-// slider
 
-var swiper = new Swiper(".mySwiper", {
-  effect: "cards",
-  grabCursor: true,
-});
+
