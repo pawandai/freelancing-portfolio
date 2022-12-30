@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&family=Zen+Dots&display=swap');
+
 html,
 body {
   position: relative;
@@ -35,7 +37,7 @@ body {
 }
 
 img {
-  width: 320px;
+  width: 150px;
 }
 
 .swiper {
@@ -53,4 +55,29 @@ img {
   color: #fff;
   gap: 20px;
   overflow: visible;
+}
+
+.swiper-slide-active {
+  background-color: #eee;
+  opacity: 1;
+}
+
+.message {
+  color: #333;
+}
+
+.project-heading {
+  font-family: 'Zen Dots', sans-serif;
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+}
+
+.swipe-heading {
+  font-family: 'Zen Dots', sans-serif;
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 20px;
 }

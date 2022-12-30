@@ -53,7 +53,11 @@
           class="swiper-slide"
         >
           <div class="swiper-slide flex flex-column flex-space-around">
+            <div class="project-heading">Form Validation Project</div>
             <img src="./assets/images/project-1.png" />
+            <div class="message">
+              The project idea is taken from Traversy Media
+            </div>
           </div>
         </a>
         <a
@@ -61,10 +65,14 @@
           target="_blank"
           class="swiper-slide"
         >
-          <div class="swiper-slide">
-            <img src="./assets/images/project-2.png" /></div
-        ></a>
+          <div class="swiper-slide flex flex-column flex-space-around">
+            <div class="project-heading">Signin/Signup Form Project</div>
+            <img src="./assets/images/project-2.png" />
+            <div class="message">The project idea is taken from Florin Pop</div>
+          </div>
+        </a>
       </div>
+      <div class="swipe-heading">Swipe for Next/Previous</div>
     </div>
 
     <!-- Swiper JS -->
@@ -72,7 +80,6 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         effect: "cards",
-        loop: true,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
