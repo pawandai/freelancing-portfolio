@@ -131,6 +131,10 @@ li {
 }
 
 .spread {
+  width: 100%;
+}
+
+.stretch {
   width: 100vw;
 }
 
